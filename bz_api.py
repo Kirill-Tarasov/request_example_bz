@@ -6,7 +6,7 @@ from jose import jws
 from jose.constants import ALGORITHMS
 
 class Bitzlato:
-    BASE_URL = "https://bitzlato.bz"
+    BASE_URL = "https://bitzlato.com"
     def __init__(self, uid : int, key : dict, key_id : str):
         self.uid = uid
         self.key = key
