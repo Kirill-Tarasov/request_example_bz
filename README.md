@@ -1,4 +1,4 @@
-
+# Launch app
 
 ```
 bot = Bitzlato(<your_uid>, <secret_key>, <kid>)
