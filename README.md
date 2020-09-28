@@ -1,10 +1,9 @@
-# request_example_bz
 
-### Запуска 
 
->bot = Bitzlato(<your_uid>, <secret_key>, <kid>)
->
->list_adds = bot.get_list_adds(
+```
+bot = Bitzlato(<your_uid>, <secret_key>, <kid>)
+
+list_adds = bot.get_list_adds(
     cryptocurrency='BTC', 
     currency='RUB', 
     is_owner_active=True, 
@@ -12,8 +11,6 @@
     pay_method='4430', 
     order_type='purchase'
     )
->
->print(list_adds)
 
-
-
+print(list_adds)
+```
